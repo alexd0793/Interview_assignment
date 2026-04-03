@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-senior-regression-plus",
+  "version": "1.0.0",
+  "description": "Senior-level regression automation suite for SauceDemo using Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
